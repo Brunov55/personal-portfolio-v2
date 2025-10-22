@@ -96,7 +96,8 @@ main{
 .pixel-cat-image{
     display: block;
     height: auto;
-    max-width: 200px;}
+    max-width: 200px;
+}
 
 footer{
     background-color: #1f2a57;
