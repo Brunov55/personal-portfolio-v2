@@ -1,0 +1,110 @@
+body{
+    background-color: #0b163d;
+    color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: #1f2a57;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+
+}
+
+.nav-section p{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-section-center{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+main{
+    padding: 20px;
+    flex: 1;
+}
+
+.computer-frame{
+    border: 30px solid #6b6b6b;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #000;
+    font-family: 'Pixelify Sans', monospace;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.computer-frame p{
+    font-size: 1.2em;
+}
+
+.computer-frame a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.whatsapp:hover{
+    color: #66be2d;
+}
+
+.linkedin:hover{
+    color: #2579cc;
+}
+
+.github:hover{
+    color: #8738ce;
+}
+
+.social-media-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.social-media-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.portfolio-intro{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pixel-cat-image{
+    display: block;
+    height: auto;
+    max-width: 200px;}
+
+footer{
+    background-color: #1f2a57;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+footer p{
+    margin: 0 auto;
+}
